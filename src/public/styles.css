@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+  display: flex;
+  margin-top: 150px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.group {
+  display: flex;
+  gap: 5px;
+}
+
+h1 {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+#results {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}

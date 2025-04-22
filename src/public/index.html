@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dim">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Modelo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/toxicity"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h1>Detector de Toxicidad ☣️</h1>
+    <div class="group">
+        <input type="text" id="input" class="input">
+        <button id="btn-submit" class="btn">Analizar</button>
+    </div>
+    <div id="results"><span class="loading loading-spinner loading-md"></span></div>
+</body>
+<script type="module" src="script.js"></script>
+
+</html>
